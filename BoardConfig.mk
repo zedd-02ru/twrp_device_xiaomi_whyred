@@ -124,7 +124,7 @@ TW_DEFAULT_LANGUAGE := ru
 TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
-TW_INCLUDE_FUSE_NTFS := true
+##TW_INCLUDE_FUSE_NTFS := true
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
