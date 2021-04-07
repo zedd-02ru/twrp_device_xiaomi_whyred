@@ -23,7 +23,7 @@
 /persist        ext4    /dev/block/bootdevice/by-name/persist                           flags=display="Persist"
 /persist_image  emmc    /dev/block/bootdevice/by-name/persist														flags=backup=0;display="Persist Image";flashimg
 #firmware-update
-/modem		    emmc    /dev/block/bootdevice/by-name/modem										          	flags=backup=1;display="Modem (Image)";flashimg
+/modem          emmc    /dev/block/bootdevice/by-name/modem	                           	flags=backup=1;display="Modem (Image)";flashimg
 /bluetooth      emmc    /dev/block/bootdevice/by-name/bluetooth													flags=backup=1;display="Bluetooth";flashimg
 /splash         emmc    /dev/block/bootdevice/by-name/splash														flags=backup=1;display="Splash";flashimg
 /abl            emmc    /dev/block/bootdevice/by-name/abl														  	flags=display="Firmware-update";backup=1
