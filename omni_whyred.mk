@@ -26,7 +26,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_DEVICE := whyred
 PRODUCT_NAME := omni_whyred
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 5 Pro
+PRODUCT_MODEL := Redmi Note 5
 PRODUCT_MANUFACTURER := Xiaomi
 
 # enable stock zip packages flash
@@ -34,5 +34,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.secure=1 \
     ro.adb.secure=0 \
     ro.allow.mock.location=0 \
-    ro.hardware.keystore=sdm660
+    ro.hardware.keystore=sdm660 \
+    ro.hardware.gatekeeper=sdm660
 

@@ -41,7 +41,8 @@ service keystore_auth /sbin/keystore_auth
     disabled
     seclabel u:r:recovery:s0
 
-service keystore /sbin/keystore /data/misc/keystore
+service keystore /sbin/keystore /tmp/misc/keystore
+#service keystore /sbin/keystore /data/misc/keystore
     user root
     group root drmrpc readproc
     disabled
@@ -79,7 +80,7 @@ on property:crypto.ready=0
 on property:crypto.ready=1
     start sbinqseecomd
 
-on property:sys.listeners.registered=true
+on property:vendor.sys.listeners.registered=true
     start hwservicemanager
     start keymaster-3-0
     start gatekeeper-1-0
