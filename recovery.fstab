@@ -7,8 +7,8 @@
 /cache          ext4    /dev/block/bootdevice/by-name/cache            flags=backup=0;display="Cache";wipeingui
 /data           ext4    /dev/block/bootdevice/by-name/userdata         flags=encryptable=footer;length=-16384;backup=1;display="User Data"
 /recovery       emmc    /dev/block/bootdevice/by-name/recovery         flags=backup=1;display="Recovery Image";flashimg
-#/system         ext4    /dev/block/bootdevice/by-name/system          flags=backup=1;display="System";wipeingui
-/system_root    ext4    /dev/block/bootdevice/by-name/system           flags=backup=1;display="System"
+#/system         ext4    /dev/block/bootdevice/by-name/system           flags=backup=1;display="System";wipeingui
+/system_root    ext4    /dev/block/bootdevice/by-name/system           flags=backup=1;display="System";wipeingui
 /system_image   emmc    /dev/block/bootdevice/by-name/system           flags=display="System_image";backup=1;flashimg=1
 /vendor         ext4    /dev/block/bootdevice/by-name/vendor           flags=backup=1;display="Vendor";wipeingui
 /vendor_image   emmc    /dev/block/bootdevice/by-name/vendor           flags=backup=0;display="Vendor Image";flashimg
