@@ -17,7 +17,7 @@ Xiaomi Redmi Note 5 Pro was announced and released in February 2018.
 | CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
 | GPU          | Adreno 509                                      |
 | Memory       | 4GB / 6GM RAM (LPDDR4X)                         |
-| Shipped Android version | 7.1.1                                |
+| Shipped Android version | 8.1                                  |
 | Storage      | 64GB eMMC 5.1 flash storage                     |
 | Battery      | Non-removable Li-Po 4000 mAh                    |
 | Dimensions   | 158.6 x 75.4 x 8.05 mm                          |
